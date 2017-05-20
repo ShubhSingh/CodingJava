@@ -1,5 +1,6 @@
 package coding.java;
-/* Class A with 2 constructors*/
+
+/* Recursive constructor invocation. This class will not compile.*/
 class A {
 	A(){
 		this("foo");
