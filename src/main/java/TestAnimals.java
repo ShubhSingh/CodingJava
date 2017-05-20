@@ -1,4 +1,4 @@
-package coding.java;
+package main.java;
 /* When eat() in Horse class is public it prints:
  * Generic Animal Eating Generically
  * Horse eating hay, oats and Horse treats

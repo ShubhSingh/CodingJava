@@ -1,4 +1,4 @@
-package coding.java;
+package main.java;
 
 import java.util.Collection;
 import java.util.Iterator;

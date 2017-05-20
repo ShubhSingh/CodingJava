@@ -1,4 +1,4 @@
-package coding.java;
+package main.java;
 
 /* Recursive constructor invocation. This class will not compile.*/
 class A {
