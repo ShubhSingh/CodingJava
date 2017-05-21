@@ -1,6 +1,0 @@
-C:\Program Files (x86)\Java\jdk1.7.0_80
-
-2. set PATH=%JAVA_HOME%/bin;%PATH%
-
-If you want to compile using a jar then run:
-3. set CLASSPATH=actuateReport.jar;%CLASSPATH%
