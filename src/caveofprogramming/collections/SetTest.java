@@ -4,6 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
+/* How to use HashSet, TreeSet and LinkedHashSet, 
+ * plus how to use the Set interface methods 
+ * and how to do stuff like finding the intersection of two sets
+ */
 public class SetTest {
 
     public static void main(String[] args) {
@@ -35,12 +39,12 @@ public class SetTest {
         set1.add("mouse");
         System.out.println(set1);
 
-        // ///////// Iteration ////////////////
+        // Iteration
         for (String element : set1) {
             System.out.println(element);
         }
 
-        // ////////// Does set contains a given item? //////////
+        // Does set contains a given item?
         if (set1.contains("aardvark")) {
             System.out.println("Contains aardvark");
         }
@@ -58,12 +62,12 @@ public class SetTest {
         set2.add("monkey");
         set2.add("ant");
         
-        ////////////// Intersection ///////////////////
+        // Intersection
         Set<String> intersection = new HashSet<String>(set1);
         intersection.retainAll(set2);
         System.out.println(intersection);
         
-        ////////////// Difference /////////////////////////
+        // Difference
         Set<String> difference = new HashSet<String>(set2);
         difference.removeAll(set1);
         System.out.println(difference);
