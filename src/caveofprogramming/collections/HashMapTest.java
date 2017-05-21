@@ -1,7 +1,8 @@
+package caveofprogramming.collections;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/* Create HashMap and print key value pair using for each loop*/
 public class HashMapTest {
 
 	public static void main(String[] args) {
@@ -23,5 +24,4 @@ public class HashMapTest {
 			System.out.println(key+" : "+value);
 		}
 	}
-
 }

@@ -1,13 +1,14 @@
-package main.java;
+package caveofprogramming.collections;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/*Create an ArrayList, add some elements, print the ArrayList using for loop.
+/* CaveOfProgramming.com tutorial 1. ArrayList_Collection Tutorial
+ * Create an ArrayList, add some elements, print the ArrayList using for loop.
  * Remove element from start and end.
  * Iterate and print the ArrayList using for each loop.
  * Store ArrayList in List.
- * */ 
+ */ 
 public class ArrayListTest {
 
 	public static void main(String[] args) {

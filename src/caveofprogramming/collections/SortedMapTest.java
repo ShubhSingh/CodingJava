@@ -1,10 +1,12 @@
+package caveofprogramming.collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-class Temp {}
-
+/* Create a HashMap, LinkedHashMap, TreeMap and pass them to testMap method that
+ * add key, value pairs to map and prints key value pairs.
+ */
 public class SortedMapTest {
 
 	public static void main(String[] args) {
@@ -18,7 +20,6 @@ public class SortedMapTest {
 		System.out.println("--------");
 		testMap(treeMap);
 		
-		System.out.println(new Temp());
 	}
 
 	public static void testMap(Map<Integer, String> map) {
