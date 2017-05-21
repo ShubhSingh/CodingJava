@@ -2,25 +2,20 @@ package caveofprogramming.collections;
 import java.util.ArrayList;
 
 class Machine {
-
 	@Override
 	public String toString() {
 		return "I am a machine";
 	}
-	
 	public void start() {
 		System.out.println("Machine start.");
 	}
-	
 }
 
 class Camera extends Machine {
-	
 	@Override
 	public String toString() {
 		return "I am a camera";
 	}
-	
 }
 
 public class T31_GenericsWildCards {
@@ -55,8 +50,13 @@ public class T31_GenericsWildCards {
 	
 	// I cannot pass the ArrayList<Camera> to ArrayList<Machine>. I have to change it ArrayList<Machine> to ArrayList<?>.
 	// ? is called wildcard. So you will read ArrayList of unknown type.
-	public static void showListMachine(ArrayList<?> list) { // If we want to use a specific object and it's subclasses than we can use an upper bound on the wildcard. For example: showList(ArrayList<? extends Machine>). In this case, in the for loop, I can set the type to Machine. Bare in mind that Java knows only about Machine and knows that it has some child but it doesn't know the methods contained in the child; it only knows the methods available in Machine.
-		// If we change to wildcard then we have to change the type to Object:
+	public static void showListMachine(ArrayList<?> list) { 
+	/* If we want to use a specific object and it's subclasses than we can use an upper bound on the wildcard.
+	   For example: showList(ArrayList<? extends Machine>). In this case, in the for loop, I can set the type to Machine. 
+	   Bare in mind that Java knows only about Machine and knows that it has some child 
+	   but it doesn't know the methods contained in the child; it only knows the methods available in Machine.
+	   If we change to wildcard then we have to change the type to Object:
+	 */
 		for(Object value : list) {
 			System.out.println(value);
 		}
