@@ -1,6 +1,5 @@
 package caveofprog.java.t43.enumtypes;
 
-
 public enum Animal {
 	CAT("Taylor"), DOG("Alaska"), MOUSE("Jerry"); // They are objects of the type Animal
 	
