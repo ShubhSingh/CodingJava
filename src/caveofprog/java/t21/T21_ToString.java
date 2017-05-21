@@ -21,7 +21,6 @@ class Frog {
 	}
 }
 
-
 public class T21_ToString {
 	public static void main(String[] args) {
 		Frog frog1 = new Frog(7, "Freddie");

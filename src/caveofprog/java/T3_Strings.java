@@ -1,6 +1,6 @@
 package caveofprog.java;
 
-public class Application {
+public class T3_Strings {
 	public static void main(String[] args) {
 		int myInt = 7;
 		
