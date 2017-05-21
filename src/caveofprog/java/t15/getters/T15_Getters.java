@@ -1,4 +1,4 @@
-package caveofprog.java.t15;
+package caveofprog.java.t15.getters;
 class Person {
 	String name;
 	int age;

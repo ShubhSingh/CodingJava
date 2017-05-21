@@ -1,4 +1,4 @@
-package caveofprog.java.t24;
+package caveofprog.java.t24.interfaces;
 
 public class T24_Interface {
 	public static void main(String[] args) {

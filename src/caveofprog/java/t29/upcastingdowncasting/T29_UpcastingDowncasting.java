@@ -1,4 +1,4 @@
-package caveofprog.java;
+package caveofprog.java.t29.upcastingdowncasting;
 class Machine {
 	public void start() {
 		System.out.println("Machine started.");

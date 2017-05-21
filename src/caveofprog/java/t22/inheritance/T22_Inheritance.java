@@ -1,4 +1,4 @@
-package caveofprog.java.t22;
+package caveofprog.java.t22.inheritance;
 
 public class T22_Inheritance {
 	public static void main(String[] args) {

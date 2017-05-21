@@ -1,4 +1,4 @@
-package caveofprog.java.t26;
+package caveofprog.java.t26.polymorphism;
 
 public class Tree extends Plant {
 

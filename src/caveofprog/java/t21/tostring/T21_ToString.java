@@ -1,4 +1,4 @@
-package caveofprog.java.t21;
+package caveofprog.java.t21.tostring;
 class Frog {
 	
 	private int id;

@@ -1,5 +1,5 @@
-package caveofprog.java.t25;
-import world.Plant;
+package caveofprog.java.t25.accessmodifiers;
+import caveofprog.java.t25.world.Plant;
 
 public class Grass extends Plant {
 	public Grass() {

@@ -1,4 +1,4 @@
-package caveofprog.java.t14;
+package caveofprog.java.t14.methods;
 
 class Person {
 	
