@@ -1,5 +1,5 @@
-package caveofprog.java.t15.getters;
-class Person {
+package caveofprog.java;
+class OldPerson {
 	String name;
 	int age;
 	
@@ -27,7 +27,7 @@ class Person {
 
 public class T15_Getters {
 	public static void main(String[] args) {
-		Person person1 = new Person();
+		OldPerson person1 = new OldPerson();
 		
 		person1.name =  "Elena";
 		person1.age = 26;

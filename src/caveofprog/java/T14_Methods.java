@@ -1,6 +1,6 @@
-package caveofprog.java.t14.methods;
+package caveofprog.java;
 
-class Person {
+class NewPerson {
 	
 	//Instance variables (data or "state")
 	String name;
@@ -24,14 +24,14 @@ class Person {
 public class T14_Methods {
 	public static void main(String[] args) {
 
-		Person person1 = new Person();
+		NewPerson person1 = new NewPerson();
 		
 		person1.name = "Elena Garrone";
 		person1.age = 26;
 		person1.speak();
 		person1.sayHello();
 		
-		Person person2 = new Person();
+		NewPerson person2 = new NewPerson();
 		
 		person2.name = "Peter Juhasz";
 		person2.age = 32;

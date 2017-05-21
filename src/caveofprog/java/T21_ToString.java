@@ -1,10 +1,10 @@
-package caveofprog.java.t21.tostring;
-class Frog {
+package caveofprog.java;
+class Toad {
 	
 	private int id;
 	private String name;
 	
-	public Frog(int id, String name) {
+	public Toad(int id, String name) {
 		this.id = id;
 		this.name = name;
 	}
@@ -23,8 +23,8 @@ class Frog {
 
 public class T21_ToString {
 	public static void main(String[] args) {
-		Frog frog1 = new Frog(7, "Freddie");
-		Frog frog2 = new Frog(5, "Roger");
+		Toad frog1 = new Toad(7, "Freddie");
+		Toad frog2 = new Toad(5, "Roger");
 		
 		System.out.println(frog1);
 		System.out.println(frog2);
