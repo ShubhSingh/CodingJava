@@ -5,7 +5,9 @@ import java.net.URL;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-// To make this class iterable I need to implement the Iterable interface specifying what do i want to iterate through(in this case strings):
+/* To make this class iterable I need to implement the Iterable interface
+ * specifying what do I want to iterate through(in this case strings)
+ */
 public class UrlLibrary implements Iterable<String> {
 	
 	private LinkedList<String> urls = new LinkedList<String>();
@@ -72,5 +74,4 @@ public class UrlLibrary implements Iterable<String> {
 		return urls.iterator();
 	}
 	*/
-	
 }
