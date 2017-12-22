@@ -2,6 +2,8 @@ package main.java;
 
 /*
  * http://www.geeksforgeeks.org/array-rotation/
+ * Time complexity: O(n*d)
+ * Auxiliary Space: O(1)
  */
 public class RotateArray {
 	
