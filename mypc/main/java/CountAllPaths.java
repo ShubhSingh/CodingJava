@@ -13,7 +13,7 @@ public class CountAllPaths {
 	// Array of lists for Adjacency List Representation
 	private LinkedList<Integer> adj[];
 
-	// Constructor
+	@SuppressWarnings("unchecked")	
 	CountAllPaths(int v) {
 		V = v;
 		adj = new LinkedList[v];
