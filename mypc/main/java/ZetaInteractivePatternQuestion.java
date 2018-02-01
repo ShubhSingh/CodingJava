@@ -22,7 +22,7 @@ public class ZetaInteractivePatternQuestion {
 			}
 			sum = 0;
 		}
-		System.out.println(maxSum);
+		System.out.println(maxSum); // Output is: 19
 	}
 
 }

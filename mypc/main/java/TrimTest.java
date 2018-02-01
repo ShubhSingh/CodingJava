@@ -5,5 +5,5 @@ public class TrimTest {
 			System.out.println("Equal");
 		else
 			System.out.println("Not Equal");
-	} 
+	} // Output is: Equal
 }

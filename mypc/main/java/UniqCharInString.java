@@ -7,7 +7,7 @@ public class UniqCharInString {
 	public static void main(String[] args) {
 		String s = "abcdefghkdlmn";
 		boolean z = isStringCharUnique(s); 
-		System.out.println(z);
+		System.out.println(z); // Output is: false
 	}
 	
 	// returns true if String has unique characters
