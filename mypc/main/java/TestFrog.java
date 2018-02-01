@@ -13,10 +13,10 @@ class TestFrog {
 		new Frog();
 		new Frog();
 		new Frog();
-		System.out.println("frogCount: " + Frog.frogCount);
+		System.out.println("frogCount: " + Frog.frogCount); // output is: frogCount: 3
 
 		Frog f = new Frog();
 		int frogs = f.frogCount;
-		System.out.println("frogs: " + frogs);
+		System.out.println("frogs: " + frogs); // output is: frogs: 4
 	}
 }
