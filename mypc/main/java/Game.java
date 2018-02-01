@@ -30,5 +30,8 @@ public class Game {
 		for (SportsMan player : li) {
 			player.hitBall();
 		}
+		// Output is: 
+		// Hit Ball With Bat
+		// Hit Ball With Leg
 	}
 }

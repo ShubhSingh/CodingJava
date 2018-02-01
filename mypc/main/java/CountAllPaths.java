@@ -75,6 +75,6 @@ public class CountAllPaths {
 		g.addEdge(1, 3);
 
 		int s = 2, d = 3;
-		System.out.println(g.countPaths(s, d));
+		System.out.println(g.countPaths(s, d)); // Output is: 3
 	}
 }

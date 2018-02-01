@@ -39,5 +39,6 @@ public class Merge2SortedArrays {
 		for (int i = 0; i < a.length + b.length; i++) {
 			System.out.print(c[i] + " ");
 		}
+		// Output is: 1 2 3 4 5 6 7 8 10 12 
 	}
 }

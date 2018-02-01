@@ -32,6 +32,6 @@ public class LeftRotate {
 	public static void main(String[] args) {
 		int arr[] = { 1, 2, 3, 4, 6, 8, 7 };
 		leftRotate(arr, 2); // Rotate array by 2
-		printArray(arr);
+		printArray(arr); // Output is: 3 4 6 8 7 1 2
 	}
 }

@@ -27,7 +27,7 @@ public class NumberWithZeroAsDigit {
     }
     
 	public static void main (String[] args) {
-		System.out.println(totalZeroCount(105));
+		System.out.println(totalZeroCount(105)); // Output is: 15
 	}
 	
 }

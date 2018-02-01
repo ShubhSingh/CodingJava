@@ -13,6 +13,10 @@ public class ExceptionTest {
 		System.out.println("C");
 		}
 		System.out.println("D");
+		/* Output is:
+		B
+		C
+		D*/
 	}
 	public static void throwIt() {
 		throw new RuntimeException();

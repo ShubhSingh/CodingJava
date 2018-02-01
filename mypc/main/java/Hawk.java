@@ -32,5 +32,6 @@ class Hawk extends Raptor {
 		System.out.print("pre ");
 		new Hawk();
 		System.out.println("hawk ");
+		// Output is: r1 r4 pre b1 b2 r3 r2 hawk 
 	}
 }

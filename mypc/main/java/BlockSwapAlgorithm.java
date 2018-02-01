@@ -16,7 +16,7 @@ public class BlockSwapAlgorithm {
         System.out.println(Arrays.toString(array));
         System.out.println("rotated to the left " + d + " is:");
         rotateArrayLeft(array, d);
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array)); // Output is: [3, 4, 5, 6, 7, 1, 2]
     }
 
     /**

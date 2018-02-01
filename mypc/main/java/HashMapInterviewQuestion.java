@@ -21,5 +21,15 @@ public static void main(String[] args) {
 		String value = entry.getValue();
 		System.out.println(key + ": " +value);
 	}
+	
+	/*
+	 * Output is:
+	 * Ten
+	 * 5: Five
+	 * 6: Six
+	 * 7: Seven
+	 * 8: Eight
+	 * 9: Ten
+	 * */
 }
 }

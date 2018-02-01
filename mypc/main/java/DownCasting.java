@@ -22,4 +22,9 @@ class DownCasting {
 			}
 		}
 	}
+	/* Output is:
+	generic noise
+	bark
+	roll over
+	generic noise*/
 }

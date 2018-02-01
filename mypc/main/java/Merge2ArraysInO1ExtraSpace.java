@@ -26,9 +26,9 @@ public class Merge2ArraysInO1ExtraSpace {
 	public static void main(String[] args) {
 		merge(arr1.length, arr2.length);
 		System.out.println("After merging first array:");
-		System.out.print(Arrays.toString(arr1));
+		System.out.print(Arrays.toString(arr1)); // Output is: [1, 2, 3, 5, 8, 9]
 		System.out.println();
 		System.out.println("And second array:");
-		System.out.print(Arrays.toString(arr2));
+		System.out.print(Arrays.toString(arr2)); // Output is: [10, 13, 15, 20]
 	}
 }

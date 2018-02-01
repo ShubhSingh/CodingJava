@@ -54,6 +54,6 @@ class RotateArrayO1ExtraSpace
 		RotateArrayO1ExtraSpace rotate = new RotateArrayO1ExtraSpace();
 		int arr[] = {1, 2, 3, 4, 5, 6, 7};
 		rotate.leftRotate(arr, 2, 7);
-		rotate.printArray(arr, 7);
+		rotate.printArray(arr, 7); // Output is: 3 4 5 6 7 1 2 
 	}
 }

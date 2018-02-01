@@ -18,7 +18,7 @@ public class PrintDistinctInteger {
 				set.add(A[i]);
 				System.out.print(A[i] + " ");
 			}
-
 		}
 	}
+	/*Output is: 89 4 7 23 45*/ 
 }

@@ -8,7 +8,7 @@ public class CountDiffPair {
 		int[] arr =  {1,7,5,9,2,12,3};
 		int k = 2;
 		int sol = countPairsWithDiffK(arr, arr.length, k);
-		System.out.println(sol);	
+		System.out.println(sol); // Output is: 4
 	}
 
 	static int countPairsWithDiffK(int arr[], int n, int k)

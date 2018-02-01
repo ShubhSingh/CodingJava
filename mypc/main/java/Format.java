@@ -6,6 +6,6 @@ public class Format {
 		double d = 1.37;
 		float f = 2.14f;
 		
-		System.out.format(" %d",i);
+		System.out.format(" %d",i); // Output is: 7
 	}
 }

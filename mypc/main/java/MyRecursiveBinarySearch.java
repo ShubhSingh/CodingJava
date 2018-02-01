@@ -29,4 +29,9 @@ public class MyRecursiveBinarySearch {
         index = recursiveBinarySearch(arr1,0,arr1.length,876);
         System.out.println("Found 876 at "+index+" index");
     }
+    /* Output is:
+    	Found 45 at 1 index
+    	Found 999 at 7 index
+    	Found 876 at 4 index
+    */
 }
