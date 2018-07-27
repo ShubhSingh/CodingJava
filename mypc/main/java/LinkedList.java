@@ -14,6 +14,7 @@ public class LinkedList {
 	Node head;
 
 	public void append(int data) {
+		// If list is empty
 		if(head == null) {
 			head = new Node(data);
 			return;
@@ -26,6 +27,7 @@ public class LinkedList {
     }
 
 	public void prepend(int data) {
+		//If list is empty
 		if(head == null) {
 			head = new Node(data);
 			return;
@@ -36,6 +38,7 @@ public class LinkedList {
 	}
 	
 	public void deleteWithValue(int data) {
+		// If list is empty
 		if(head == null) return;
 		if(head.data == data) {
 			head = head.next;
@@ -51,6 +54,45 @@ public class LinkedList {
 		}
 	}
 
+	public void deleteAtPosition(int position) {
+		// If list is empty
+		if(head == null) return;
+		Node current = head;
+
+		// If head needs to be removed
+        if (position == 0)
+        {
+            head = current.next;   // Change head
+            return;
+        }
+ 
+        // Find previous node of the node to be deleted
+        for (int i=0; current!=null && i<position-1; i++)
+            current = current.next;
+ 
+        // If position is more than number of n does
+        if (current == null || current.next == null)
+            return;
+ 
+        Node next = current.next.next;
+ 
+        current.next = next;  // Unlink the deleted node from list
+	}
+
+	public void insertAfter(Node prevNode, int data)
+	{
+	    if (prevNode == null)
+	    {
+	        System.out.println("The given previous node cannot be null");
+	        return;
+	    }
+	 
+	    Node node = new Node(data);
+	 
+	    node.next = prevNode.next;
+	    prevNode.next = node;
+	}
+	
 	public void printList()
     {
         Node current = head;
@@ -82,6 +124,18 @@ public class LinkedList {
         llist.printList();
         
         llist.deleteWithValue(2); // Delete Node with value 2
+        llist.printList();
+        
+        llist.deleteAtPosition(2); // Delete Node at position 2
+        llist.printList();
+        
+        llist.insertAfter(llist.head.next, 6); // Insert after second node
+        llist.printList();
+        
+        llist.insertAfter(llist.head.next.next.next.next, 8); // Insert after fifth node
+        llist.printList();
+        
+        llist.insertAfter(llist.head.next.next.next, 8); // Insert after fourth node
         llist.printList();
 	}
 
