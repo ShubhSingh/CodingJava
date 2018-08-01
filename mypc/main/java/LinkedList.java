@@ -103,7 +103,75 @@ public class LinkedList {
         }
         System.out.println();
     }
+
+	/* deletes the entire linked list */
+    void deleteList()
+    {
+        head = null;
+    }
+    
+    /* Returns count of nodes in linked list */
+    public int getCount()
+    {
+        Node current = head;
+        int count = 0;
+        while (current != null)
+        {
+            count++;
+            current = current.next;
+        }
+        return count;
+    }
+
+    /* Checks whether the value x is present in linked list */
+    public boolean search(int x)
+    {
+        Node current = head;
+        while (current != null)
+        {
+            if (current.data == x)
+                return true;    //data found
+            current = current.next;
+        }
+        return false;    //data not found
+    }
+
+    /* Takes index as argument and return data at index*/
+    public int getNth(int index)
+    {
+        Node current = head;
+        int count = 0;
+        while (current != null)
+        {
+            if (count == index)
+                return current.data;
+            count++;
+            current = current.next;
+        }
+ 
+        /* if we get to this line, the caller was asking
+        for a non-existent element so we assert fail */
+        assert(false);
+        return 0;
+    }
+    
+    /* Function to get the nth node from the last of a linked list */
+    public void printNthFromLast(int n)
+	 {
+    	int len = getCount();
 	
+	     if (len < n)
+	         return;
+	
+	     Node temp = head;
+	
+	     // 2) get the (len-n+1)th node from the begining
+	     for (int i = 1; i < len-n+1; i++)
+	         temp = temp.next;
+	
+	     System.out.println(temp.data);
+	 }
+    
 	public static void main(String[] args) {
 
 		LinkedList llist = new LinkedList();
@@ -137,6 +205,15 @@ public class LinkedList {
         
         llist.insertAfter(llist.head.next.next.next, 8); // Insert after fourth node
         llist.printList();
+        
+        System.out.println("Count of nodes is: " +llist.getCount());
+        
+        System.out.println("Check list contains 4: "+llist.search(4));
+        
+        System.out.println("Element at index 3 is "+llist.getNth(2));
+        
+        System.out.print("3rd node from last: ");
+        llist.printNthFromLast(3);
 	}
 
 }
