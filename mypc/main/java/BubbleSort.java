@@ -24,9 +24,8 @@ public class BubbleSort {
 	}
 	
 	public static void main(String[] args) {
-		BubbleSort sort = new BubbleSort();
 		int[] arr = {33,22,25, 11,15,8, 2, 5};
-		sort.bubbleSort(arr);
+		bubbleSort(arr);
 		System.out.println("After sorting:");
 		for(int j=0;j<arr.length;j++) {
 			System.out.print(arr[j]+" ");
