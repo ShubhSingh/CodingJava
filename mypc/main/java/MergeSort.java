@@ -1,6 +1,9 @@
 package main.java;
 
-/* Java program for Merge Sort */
+/*
+* Rutime of merge sort: O(nlogn) average and worst case
+* Memory: O(n)
+* */
 class MergeSort
 {
     // Merges two subarrays of arr[].
@@ -80,7 +83,6 @@ class MergeSort
         }
     }
  
-    /* A utility function to print array of size n */
     static void printArray(int arr[])
     {
         int n = arr.length;
