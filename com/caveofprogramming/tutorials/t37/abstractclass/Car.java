@@ -1,6 +1,5 @@
 package t37.abstractclass;
 
-
 public class Car extends Machine {
 
 	@Override

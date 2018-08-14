@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="com/ericsson/training"/>
 	<classpathentry kind="src" path="com/ericsson/trainingjava/designpatterns"/>
 	<classpathentry kind="src" path="mypc"/>
+	<classpathentry kind="src" path="CommonBugs"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/send2/.m2/repository/junit/junit/4.7/junit-4.7.jar"/>
 	<classpathentry kind="output" path="bin"/>

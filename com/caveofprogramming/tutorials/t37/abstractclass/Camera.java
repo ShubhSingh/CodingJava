@@ -1,6 +1,5 @@
 package t37.abstractclass;
 
-
 public class Camera extends Machine {
 
 	@Override
