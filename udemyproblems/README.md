@@ -1,4 +1,4 @@
-# UdemyProblems from the Udemy course: Java Puzzles to Eliminate Code Fear
+# Udemy Problems from the Udemy course: Java Puzzles to Eliminate Code Fear
 
 This project covers problems given in the course: Java Puzzles to Eliminate Code Fear
 
