@@ -14,5 +14,6 @@ public class PracticeStrings {
     System.out.println(s.indexOf("Happy", 7));
 
     System.out.println(s.lastIndexOf("Happy"));
+    System.out.println(s.lastIndexOf("Happy", 6));
   }
 }
